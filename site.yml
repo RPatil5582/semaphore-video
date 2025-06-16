@@ -1,5 +1,5 @@
 ---
-- hosts: myservers
+- hosts: my_servers
   become: true
   tasks:
     - name: Pirnt OS info
